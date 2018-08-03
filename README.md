@@ -1,4 +1,5 @@
 # djangoLevel2! 
+## Önce Görün
 _[fatihcankeser.herokuapp.com/searchcalled/](https://fatihcankeser.herokuapp.com/searchcalled/)!Haliyle izinler yok ve yakın zamanda http bağlantıları google chrome güvensiz olarak işaretledi. Apiye bağlanırken arkaplanda ajax ile http isteği yolluyorum güvensiz gözükmesine aldanmayınız Sağ üstteki kutucuktan izin vermeyi unutmayın ._
 ![](http://sametasar.com/img/120%20AM_load%20unsafe%20script.png)
 - görsel http://sametasar.com'a aittir.
@@ -7,7 +8,7 @@ Bu uygulama önceki uygulamanın üstüne biraz daha farklı bir boyut katıyor.
 **Alotech** firmasının yayınlamış olduğu test api üzerinden, iki tarih arasındaki arama kayıtlarını json formatında çekerek, kullanıcıya yayınlıyoruz. Aslında client side ağırlıklı bir proje olduğunu söyleyebiliriz.
                     
 
-                    
+## Neler Kullandım                  
 Kullanılan teknolojler  | Sürüm
 ------------- | -------------
 Python  | `3.6.5`
