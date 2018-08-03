@@ -1,4 +1,5 @@
-# djangoLevel2!
+# djangoLevel2! [fatihcankeser.herokuapp.com/searchcalled/](https://fatihcankeser.herokuapp.com/searchcalled/)
+_!Haliyle izinler yok ve yakın zamanda http bağlantıları google chrome güvensiz olarak işaretledi. Apiye bağlanırken arkaplanda ajax ile http isteği yolluyorum güvensiz gözükmesine aldanmayınız._
 Bu uygulama önceki uygulamanın üstüne biraz daha farklı bir boyut katıyor.
 **Alotech** firmasının yayınlamış olduğu test api üzerinden, iki tarih arasındaki arama kayıtlarını json formatında çekerek, kullanıcıya yayınlıyoruz. Aslında client side ağırlıklı bir proje olduğunu söyleyebiliriz.
                     
