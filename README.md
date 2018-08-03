@@ -17,7 +17,7 @@ Jquery  | `3.3.1`
 Bootstrap  | `4.1`        
 
 ### Yayınlama 
-Google Cloud üzerinden yayınlama yapmam istendi. Google Cloud ile ilgili teknik bir dökümanı yakın bir zamanda 
+HerOku üzerinden yayınlama yapmamtım. HerOku ile ilgili teknik bir dökümanı yakın bir zamanda 
 [![](http://arzvesu.blogspot.com/favicon.ico)ArzveSu](https://arzvesu.blogspot.com) bloğumda paylaşmayı düşünüyorum.
  
 
