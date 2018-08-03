@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+    {% block content %}
+      
+        <div class="container">
+            <hr>
+            <div class="row text-center">
+                <div class="col-12"><h1>Arama Listesi</h1></div>
+            </div>
+            <hr>
+            <div class="row">
+                <!--body render edilecek buraya -->
+                    <div class="form-group col-5">
+                        <label>Başlangıç</label>
+                        <div>
+                            <input class="form-control" type="datetime-local" value="2017-08-19T00:00" id="inputStart">
+                        </div>
+                    </div>
+                    <div class="form-group col-5">
+                        <label>Bitiş</label>
+                        <div>
+                            <input class="form-control" type="datetime-local" value="2017-08-30T00:00" id="inputFinish">
+                        </div>
+                    </div>
+                    <div class="form-group col-2">
+                        <label><br></label>
+                        <div>
+                                <button id="btnSearch" class="btn btn-primary">ara</button>
+                        </div>
+                        
+                    </div>
+            </div>
+            <div class="row">
+                <div class="col-12" id="DivCallList">
+
+                </div>
+            </div>
+                
+        </div>
+       
+        
+        
+        <div class="modal fade statementModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content" style="overflow-y: scroll;">
+                    
+                </div>
+            </div>
+        </div>
+        
+        {% load static %}
+        <script type="application/javascript" src="{% static "js/jquery-3.3.1.min.js" %}"></script>
+        <script type='text/javascript' src="{% static "js/jsv.js" %}"></script>
+{% endblock %}
