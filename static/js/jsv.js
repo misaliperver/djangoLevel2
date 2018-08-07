@@ -6,9 +6,12 @@ $(document).ready(function(){
         headers.Authorization = 'Bearer' + token;
         
     }
-    
+    var cursorx="";
     function searchCall(startTime,finishTime){
-        cdURL = "http://staging1.alo-tech.com/api/?function=reportsCDRLogs&startdate="+startTime+"&finishdate="+finishTime+"&app_token="+token
+        if(cursorx==="")
+        cdURL = "http://staging1.alo-tech.com/api/?function=reportsCDRLogs&startdate="+startTime+"&finishdate="+finishTime+"&app_token="+token 
+        else
+        cdURL = "http://staging1.alo-tech.com/api/?function=reportsCDRLogs&startdate="+startTime+"&finishdate="+finishTime+"&app_token="+token +"&cursor="+cursorx
         $.ajax({
             type: 'GET',
             url: cdURL,
@@ -16,6 +19,9 @@ $(document).ready(function(){
             dataType: "json",
             success: function(response){
                 responseX=response.CallList;
+                cursorx=response.cursor;
+                console.log(cursorx)
+                console.log(responseX.length)
                 $('#DivCallList').html('');
                 
                 var len = response.CallList.length;
